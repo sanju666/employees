@@ -1,0 +1,28 @@
+
+POST http://localhost:3000/add 
+Content-Type: application/json
+
+{
+    "people":[
+        {
+            "email":"anurag11@yopmail.com",
+            "name":"anurag"
+        },
+        {
+            "email":"sameer11@yopmail.com",
+            "name":"sameer"
+        },
+        {
+            "email":"akash11@yopmail.com",
+            "name":"akash"
+        },
+        {
+            "email":"ravi11@yopmail.com",
+            "name":"ravi"
+        },
+        {
+            "email":"santosh11@yopmail.com",
+            "name":"santosh"
+        }
+    ]
+}
